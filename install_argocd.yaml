@@ -3059,7 +3059,7 @@ spec:
   project: default
   source:
     path: argocd
-    repoURL: https://github.com/fabito/htk8s.git
+    repoURL: https://github.com/Brulogaz/htk8s.git
     targetRevision: master
   syncPolicy:
     automated:
@@ -3076,8 +3076,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: overlays/x86
-    repoURL: https://github.com/fabito/htk8s.git
+    path: overlays/armhf
+    repoURL: https://github.com/Brulogaz/htk8s.git
     targetRevision: master
   syncPolicy:
     automated:

@@ -15,3 +15,5 @@ images:
     newTag: arm32v7-latest
   - name: linuxserver/transmission
     newTag: arm32v7-latest
+  - name: k8s-at-home/sabnzbd
+    newTag: latest
